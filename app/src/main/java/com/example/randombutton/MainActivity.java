@@ -14,26 +14,9 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView textView;
-    private Button button;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        textView = findViewById(R.id.textView);
-        button = findViewById(R.id.button);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){randomNumber();}
-        });
-    }
-
-    private void randomNumber(){
-        Random random = new Random();
-        Integer number = random.nextInt(1027);
-        textView.setText(number.toString());
     }
 }

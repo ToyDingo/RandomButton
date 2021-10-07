@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">RandomButton</string>
     <string name="textview">0</string>
-    <string name="button">Random</string>
+    <string name="randombutton">Random</string>
+    <string name="nextbutton">Next</string>
+    <string name="returnbutton">Return</string>
 </resources>

@@ -1,0 +1,1 @@
+Basic Android SDK: main thread vs background thread & how to do work on background threads, Activity & Fragment life cycle, MVP & MVVM design patterns, Android jetpack, Kotlin &/ or Java, some experience w/ SQLite DB (know it exists & how to query it). Some 3rd party libraries: Retrofit, RxJava/ RxAndroid, JUnit testing.
